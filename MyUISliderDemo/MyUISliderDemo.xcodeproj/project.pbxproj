@@ -17,6 +17,7 @@
 		187861122106CB03001CCEEB /* MyUISliderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187861112106CB03001CCEEB /* MyUISliderDemoUITests.m */; };
 		187861222106D7B5001CCEEB /* SliderFilterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 187861212106D7B5001CCEEB /* SliderFilterButton.m */; };
 		187861252106D7D7001CCEEB /* SliderFilterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 187861242106D7D7001CCEEB /* SliderFilterControl.m */; };
+		18786128210709A3001CCEEB /* Untitled5555.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18786127210709A3001CCEEB /* Untitled5555.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		187861212106D7B5001CCEEB /* SliderFilterButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderFilterButton.m; sourceTree = "<group>"; };
 		187861232106D7D7001CCEEB /* SliderFilterControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderFilterControl.h; sourceTree = "<group>"; };
 		187861242106D7D7001CCEEB /* SliderFilterControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderFilterControl.m; sourceTree = "<group>"; };
+		18786127210709A3001CCEEB /* Untitled5555.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled5555.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		187860EC2106CAFF001CCEEB /* MyUISliderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1878612621070995001CCEEB /* Gif */,
 				1878611F2106D676001CCEEB /* SliderFilterControl */,
 				187860ED2106CAFF001CCEEB /* AppDelegate.h */,
 				187860EE2106CAFF001CCEEB /* AppDelegate.m */,
@@ -148,6 +151,14 @@
 				187861242106D7D7001CCEEB /* SliderFilterControl.m */,
 			);
 			path = SliderFilterControl;
+			sourceTree = "<group>";
+		};
+		1878612621070995001CCEEB /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				18786127210709A3001CCEEB /* Untitled5555.gif */,
+			);
+			path = Gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187860FA2106CB02001CCEEB /* LaunchScreen.storyboard in Resources */,
+				18786128210709A3001CCEEB /* Untitled5555.gif in Resources */,
 				187860F72106CB02001CCEEB /* Assets.xcassets in Resources */,
 				187860F52106CAFF001CCEEB /* Main.storyboard in Resources */,
 			);
