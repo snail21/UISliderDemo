@@ -91,7 +91,7 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
         //选中色
         CGContextRef contexts = UIGraphicsGetCurrentContext();
         CGContextSetFillColorWithColor(contexts, self.progressColor.CGColor);
-        CGContextFillRect(contexts, CGRectMake(LEFT_OFFSET, (rect.size.height-5) / 2, (rect.size.width-RIGHT_OFFSET-LEFT_OFFSET) / 4 * SelectedIndex, 5));
+        CGContextFillRect(contexts, CGRectMake(LEFT_OFFSET, (rect.size.height-5) / 2, (rect.size.width-RIGHT_OFFSET-LEFT_OFFSET) / (fontNums -1) * SelectedIndex, 5));
         CGContextSaveGState(contexts);
     }
     else {
